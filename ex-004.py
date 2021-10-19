@@ -6,7 +6,7 @@ metro2 = 10 #>
 metro = 5   #<=
 
 
-while(pontos_jogador <= 100):
+while(pontos_jogador < 100):
     print('Qual metro você lançou até a cesta?')
     resposta = int(input())
 
