@@ -7,7 +7,7 @@ vida_jogador = 100
 
 while (vida_jogador > 0):
     
-    ataque = random.randint(15,24)
+    ataque = random.randint(12,34)
 
     vida_jogador = vida_jogador - ataque
     sleep(1)
