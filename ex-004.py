@@ -3,8 +3,7 @@ pontos_jogador = 0
 arremessos = 0
 
 while(pontos_jogador < 100):
-    print('Qual metro você lançou até a cesta?')
-    resposta = int(input())
+    resposta = int(input('Quantos metros você lançou até a cesta? '))
 
     if(resposta > 5):
         pontos_jogador += 20
@@ -17,4 +16,4 @@ while(pontos_jogador < 100):
         arremessos += 1
     
     if(pontos_jogador >= pontos):
-        print(f"Você atingiu {pontos_jogador} pontos!")
+        print(f"Você atingiu {pontos_jogador} pontos em {arremessos} arremessos!")
