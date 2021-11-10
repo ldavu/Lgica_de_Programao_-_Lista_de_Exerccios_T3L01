@@ -1,20 +1,11 @@
-import random
-from time import sleep
-
 vida_jogador = 100
-
-
 
 while (vida_jogador > 0):
     
-    ataque = random.randint(12,34)
+  ataque = int(input("adc texto aqui"))
 
-    vida_jogador = vida_jogador - ataque
-    sleep(1)
+  vida_jogador = vida_jogador - ataque
 
-    print(f"o inimigo tirou {ataque}")
-    print(f"Sua vida {vida_jogador}")
-
-    if (vida_jogador <= 0):
-        print("Você perdeu...")
-
+  print(f"O inimigo tirou: {ataque} pontos\nSua vida: {vida_jogador} pontos")
+if (vida_jogador <= 0):
+  print("Você perdeu...")
