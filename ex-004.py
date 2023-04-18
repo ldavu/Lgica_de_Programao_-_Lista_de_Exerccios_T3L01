@@ -18,3 +18,5 @@ while(pontos_jogador < 100):
     
     if(pontos_jogador >= pontos):
         print(f"Você atingiu {pontos_jogador} pontos!")
+
+        
